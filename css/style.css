@@ -1,0 +1,3940 @@
+@charset "utf-8";
+
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+  margin-top: 0px;
+  font-family: 'Kosugi Maru', sans-serif;
+  
+}
+
+img{
+  vertical-align: bottom;
+}
+
+ul,header{
+ margin: 0px;
+  padding: 0px;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: #788d98;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/*header基本設定*/
+header{
+  width: 100%;
+  height: 180px;
+  margin: 0px;
+}
+
+.logos{
+ max-width: 960px;
+ margin: 0px auto;
+ display: block;
+}
+
+.logo{
+  float: left;
+}
+
+.rightside-of-logo{
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.rightside-of-logo{
+ font-size: 14px;
+ font-weight: bold;
+}
+
+.rightside-of-logo-font{
+  color: #ff5223;
+}
+
+
+
+
+/*homeのトップ画像*/
+.home-pic{
+  
+  margin: 0px auto;
+  display: block;
+}
+
+.home-pic-back-for-pc{
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.home-pic-for-smart-back{
+  display: none;
+}
+
+
+/*グローバルナビ*/
+.global-cage{
+  clear: both;
+  width: 100%;
+  
+  background-color: #49c549;
+  
+}
+
+/*スマホ版グローバルナビ非表示*/
+.nav{
+  display: none;
+}
+
+
+
+.global-main{
+  max-width: 960px;
+  margin: 0px auto;
+  display: block;
+  background-color: #49c549;
+}
+
+.global-main ul{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+}
+
+.global-main li{
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 16px;
+  padding-top: 15px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.global-main a{
+  color: #ffffff;
+}
+
+footer{
+  margin-top: 15px;
+  border-top: 2px solid #49c549;
+}
+
+.happa{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer-font{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+/*header内右上の隠しh1タグとそのボックス*/
+.hidden-top{
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+
+h1{
+  font-size: 15px;
+  color: #f0f0f0;
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+/*index*/
+
+
+
+
+
+#index h3{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#wrap01{
+  width: 100%;
+  background-color: #fffbeb;
+  /*ボックスシャドウ*/
+  box-shadow:0px -8px 8px -1px #ccc inset;
+}
+
+
+
+#index .content-back{
+  margin-top: 30px;
+}
+
+
+
+#index .content{
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+  
+}
+
+
+
+#index .news-back{
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 20px;  
+}
+
+#index .news-frame{
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+#index .news{
+  padding-bottom: 30px;
+}
+
+/*インフォメーション*/
+#index .news ul{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+#index .news li{
+  list-style: square;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+#index .news li a{
+  color: #0000ee;
+}
+#index .info-color1{
+  color: #ff5223;
+}
+
+
+/*クリニック案内*/
+#index .clinic-intro{
+  padding-bottom: 20px;
+}
+
+#index .clinic-intro ul{
+  max-width: 960px;
+  text-align: center;
+  display: flex;
+}
+
+#index .clinic-intro li{
+  flex: 1 1;
+}
+
+
+
+#index .waiting{
+  width: 300px;
+  height: 199px;
+}
+
+#index .check{
+  width: 300px;
+  height: 199px;
+}
+
+#index .nebulizer{
+  width: 300px;
+  height: 199px;
+}
+
+#index .clinic-intro a{
+  color: #2b2b2b;
+}
+
+/*診療案内*/
+#index .medicaltreatment-intro{
+  padding-bottom: 50px;
+}
+
+#index .medicaltreatment-intro ul{
+  max-width: 960%;
+  text-align: center;
+  display: flex;
+}
+
+#index .medicaltreatment-intro li{
+  flex: 1 1;
+}
+
+#index .kafun-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .kaze-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .injection-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .medicaltreatment-intro a{
+  color: #2b2b2b;
+}
+
+/*クリニックの特徴*/
+#index .clinic-points{
+  width: 100%;
+  margin-top: 35px;
+  background-color: #ffffff;
+  /*ボックスシャドウ*/
+  box-shadow: 0px 8px 8px -1px #ccc;
+  -webkit-box-shadow: 0px 8px 8px -1px #ccc;
+  -moz-box-shadow: 0px 8px 8px -1px #ccc;
+}
+
+
+
+#index .clinicpoints-intro{
+  padding-bottom: 50px;
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+#index .clinicpoints-intro ul{
+  max-width: 960px;
+  text-align: center;
+  display: flex;
+}
+
+#index .clinicpoints-intro li{
+  flex: 1 1;
+}
+
+#index .toho-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .kidsspace-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .each-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .clinicpoints-intro a{
+  color: #2b2b2b;
+}
+
+#index .points-font{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+/*診療時間とアクセスの2カラム調節*/
+#index .lower{
+  max-width: 960px;
+  margin: 80px auto;
+  display: block;
+}
+
+
+
+
+/*診療時間*/
+#index .schejule01{
+  float: left;
+}
+
+#index .schejule01 h2{
+  margin: 30px 50px;
+}
+
+#index .logo-schejule{
+  width: 200px;
+  height: 80px;
+}
+
+#index .info-schejule p{
+  margin: 0px auto;
+  padding: 0px auto;
+  font-size: 17px;
+}
+
+#index .info-schejule-font{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/**診療時間テーブル開始**/
+
+.schejule-table01 {
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.schejule-table01 th {
+  background-color: #49c549;
+  font-size: 18px;
+  color: #ffffff;
+}
+.schejule-table01 th, .schejule-table01 td {
+  padding: 10px 20px;
+  text-align: center;
+  /* ２番目以降の線 */
+  /* 色はお好みで */
+  border-bottom: 1px solid #A28C63;
+}
+
+/**診療時間テーブル終了**/
+
+.schejule-table-attention01{
+  margin-top: -15px;
+}
+
+
+
+
+/*アクセス*/
+#index .access01{
+  float: right;
+
+  
+}
+
+#index .access01 h2{
+  margin: 30px 50px;
+}
+
+#index .map-insert01{
+  width: 100%;
+  height: 400px;
+  
+}
+
+
+#index .clearfix{
+  clear: both;
+}
+
+#index .map-btn01{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+#index .map-btn01 a{
+  color: #ffffff;
+}
+
+#index .map-details01{
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  background-color: #49c549;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+
+/*informationのページ*/
+#information .content{
+  max-width: 960px;
+  margin: 30px auto;
+  display: block;
+}
+
+#information h3{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+#information h4{
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+#information #wrap02 p{
+  font-size: 20px;
+}
+
+
+
+
+
+/*schejule-accessページ*/
+#wrap02{
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+
+#schejule-access .content{
+  max-width: 960px;
+  margin: 30px auto;
+  display: block;
+}
+
+#schejule-access h3{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+#schejule-access #wrap02 p{
+  font-size: 20px;
+}
+
+
+/**診療時間テーブル02開始**/
+#schejule-access .schejule-table02 {
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+#schejule-access .schejule-table02 th {
+  background-color: #49c549;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+#schejule-access .schejule-table02 th, .schejule-table02 td {
+  padding: 10px 20px;
+  font-size:18px;
+  text-align: center;
+  /* ２番目以降の線 */
+  /* 色はお好みで */
+  border-bottom: 1px solid #A28C63;
+}
+
+#schejule-access .schejule-table-attention02{
+  margin-top: 15px;
+  margin-bottom: 70px;
+}
+
+/**診療時間テーブル02終了**/
+
+
+#schejule-access .map-insert02{
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+
+
+#schejule-access .map-btn02{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+#schejule-access .map-btn02 a{
+  color: #ffffff;
+}
+
+#schejule-access .map-details02{
+  display: inline-block;
+  padding: 20px 100px;
+  border-radius: 25px;
+  background-color: #49c549;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+
+
+/*doctorページ*/
+#doctor .intro-doctor-pic-box-smart{
+  display: none;
+}
+
+#doctor .content{
+  max-width: 960px;
+  margin: 30px auto;
+  display: block;
+}
+
+#doctor h3{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+#doctor h4{
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#doctor .doctor-margin{
+  margin-top: 0px;
+}
+
+#doctor #wrap02 p{
+  font-size: 20px;
+}
+
+#doctor .intro-doctor-words{
+  float: left;
+  max-width: 460px;
+}
+
+#doctor .intro-doctor-pic-box{
+  float:right;
+  max-width: 460px;
+}
+
+
+#doctor .intro-doctor-pic{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#doctor .clearfix{
+ clear: both;
+}
+
+/*経歴table*/
+#doctor .doctor-table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+#doctor .doctor-table th{
+  background-color: #fffbeb;
+  height: 60px;
+}
+
+#doctor .doctor-table td{
+  background-color: #fefcf6;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/*introdaction-clinicのページ*/
+#introdaction-clinic .content{
+  max-width: 960px;
+  margin: 30px auto;
+  display: block;
+}
+
+#introdaction-clinic h3{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+#introdaction-clinic h4{
+  font-size: 25px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+#introdaction-clinic #wrap02 p{
+  font-size: 20px;
+}
+
+#introdaction-clinic .introdaction-waiting-words{
+  float: left;
+  max-width: 460px;
+  margin-top: 20px;
+}
+
+#introdaction-clinic .introdaction-waiting-pic-box{
+  float:right;
+  max-width: 460px;
+}
+
+#introdaction-clinic .introdaction-waiting-pic-box-smart{
+  display: none;
+}
+
+#introdaction-clinic .introdaction-waiting-pic{
+  max-width: 100%;
+}
+
+#introdaction-clinic .clearfix{
+ clear: both;
+ margin: 0 auto;
+}
+
+#introdaction-clinic .introdaction-check-words{
+  float: left;
+  max-width: 460px;
+  margin-top: 20px;
+}
+
+#introdaction-clinic .introdaction-check-pic-box{
+  float:right;
+  max-width: 460px;
+}
+
+#introdaction-clinic .introdaction-check-pic-box-smart{
+  display: none;
+}
+
+#introdaction-clinic .introdaction-check-pic{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#introdaction-clinic .introdaction-nebulizer-words{
+  float: left;
+  max-width: 460px;
+  margin-top: 20px;
+}
+
+#introdaction-clinic .introdaction-nebulizer-pic-box{
+  float:right;
+  max-width: 460px;
+}
+
+#introdaction-clinic .introdaction-nebulizer-pic-box-smart{
+  display: none;
+}
+
+#introdaction-clinic .introdaction-nebulizer-pic{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+/*medical-treatmentのページ*/
+#medical-treatment .content{
+  max-width: 960px;
+  margin: 30px auto;
+  display: block;
+}
+
+#medical-treatment h3{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+#medical-treatment h4{
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+#medical-treatment #wrap02 p{
+  font-size: 20px;
+}
+
+
+#medical-treatment .medical-treatment-kafun-words{
+  float: left;
+  max-width: 460px;
+}
+
+#medical-treatment .medical-treatment-kafun-pic-box{
+  float:right;
+  max-width: 460px;
+}
+
+
+#medical-treatment .medical-treatment-kafun-pic{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#medical-treatment .clearfix{
+ clear: both;
+ margin: 0 auto;
+}
+
+#medical-treatment .medical-treatment-kaze-words{
+  float: left;
+  max-width: 460px;
+}
+
+#medical-treatment .medical-treatment-kaze-pic-box{
+  float:right;
+  max-width: 460px;
+}
+
+
+#medical-treatment .medical-treatment-kaze-pic{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#medical-treatment .medical-treatment-injection-words{
+  float: left;
+  max-width: 460px;
+}
+
+#medical-treatment .medical-treatment-injection-pic-box{
+  float:right;
+  max-width: 460px;
+}
+
+
+#medical-treatment .medical-treatment-injection-pic{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#medical-treatment .medical-treatment-kafun-pic-box-smart{
+  display: none;
+}
+
+#medical-treatment .medical-treatment-kaze-pic-box-smart{
+  display: none;
+}
+
+#medical-treatment .medical-treatment-injection-pic-box-smart{
+  display: none;
+}
+
+
+
+
+/*gameページ*/
+#game .intro-doctor-pic-box-smart{
+  display: none;
+}
+
+#game .content{
+  max-width: 960px;
+  margin: 30px auto;
+  display: block;
+}
+
+#game h3{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+#game h4{
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/*#game .doctor-margin{*/
+/*  margin-top: 0px;*/
+/*}*/
+
+#game #wrap02 {
+    display: block;
+    margin: 0 auto;
+}
+
+#game #wrap02 p{
+  font-size: 20px;
+}
+
+#game .intro-doctor-words{
+  float: left;
+  max-width: 460px;
+}
+
+#game .intro-doctor-pic-box{
+  float:right;
+  max-width: 460px;
+}
+
+
+/*#game .readwith {*/
+/*    display: block;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+#game .readwith img {
+    display: block;
+    margin: 0 auto;
+    /*width: 80%;*/
+}
+
+/*#game .intro-doctor-pic{*/
+/*  max-width: 100%;*/
+/*  margin: 0 auto;*/
+/*}*/
+
+/*#game .clearfix{*/
+/* clear: both;*/
+/*}*/
+
+#game .medicine {
+    margin-bottom: 50px;
+}
+
+
+/* スロットマシーン */
+.bg03 {
+  /* background: #dcf1dc; */
+  background: #ecf7ec;
+  /* background: #fff; */
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+
+
+main {
+  position: relative;
+  width: 300px;
+  /* background: #ecf0f1; */
+  background: #fff;
+  padding: 20px;
+  /* border: 4px solid #fff; */
+  border: 4px solid #49c549;
+  border-radius: 12px;
+  margin: 16px auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.boxbox {
+  display: block;
+  margin: 0 auto;
+  /* padding: 20px; */
+  margin: 5 auto;
+}
+
+
+
+
+
+
+
+
+
+.scorecounter {
+  background: #49c549;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.scoretxt {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#score {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: px;
+}
+
+.panel img {
+  width: 90px;
+  height: 110px;
+  margin-bottom: 4px;
+}
+
+.stop {
+  cursor: pointer;
+  width: 90px;
+  height: 32px;
+  line-height: 32px;
+  background: #ef454a;
+  box-shadow: 0 4px 0 #d1483e;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  user-select: none;
+}
+
+#spin {
+  cursor: pointer;
+  width: 280px;
+  height: 36px;
+  line-height: 36px;
+  /* background: #3498bd;
+  box-shadow: 0 4px 0 #2880b9; */
+  background: #49c549;
+  box-shadow: 0 4px 0 #399939;
+  border-radius: 18px;
+  text-align: center;
+  color: #fff;
+  user-select: none;
+  margin: 0 auto;
+}
+
+#resetbtn {
+  cursor: pointer;
+  width: 280px;
+  height: 36px;
+  line-height: 36px;
+  /* background: #3498bd;
+  box-shadow: 0 4px 0 #2880b9; */
+  background: #49c549;
+  box-shadow: 0 4px 0 #399939;
+  border-radius: 18px;
+  text-align: center;
+  color: #fff;
+  user-select: none;
+  margin: 0 auto;  
+}
+
+.unmatched {
+  opacity: 0.5;
+}
+
+.inactive {
+  opacity: 0.5;
+}
+
+.box {
+ display: none;
+ 
+}
+
+
+
+.yatta {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  height: 206px;
+ 
+}
+
+.resetbtn {
+  background: #fff;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*レスポンシブデザイン用*/
+/*画面サイズが480以下(スマホ縦)の場合に適用*/
+@media screen and (max-width:480px){
+
+/*共通部分*/
+
+body{
+  margin: 0px;
+  padding: 0px;
+  color: #333333;/*元333333*/
+  font-size: 15px;
+  line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+  margin-top: 0px;
+  font-family: 'Kosugi Maru', sans-serif;
+  
+}
+
+img{
+  vertical-align: bottom;
+}
+
+ul,header{
+ margin: 0px;
+  padding: 0px;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: #788d98;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1{
+  font-size: 2.5vw;
+}
+
+
+
+/*header基本設定*/
+header{
+  width: 100%;
+  height: 80px;
+  margin: 0px;
+  background-color: #49c549;
+  position: fixed;
+  z-index: 100;
+}
+
+.logos{
+ max-width: 100%;
+ margin: 0px auto;
+ display: block;
+}
+
+.logo{
+  float: left;
+  max-width: 65%;
+  margin-top: -23.5px;
+}
+
+.logo-pic{
+  max-width: 100%;
+}
+
+
+.rightside-of-logo{
+  display: none;
+  float: right;
+  width: 50%;
+  margin-right: 0px;
+  
+}
+
+.rightside-of-logo{
+ font-size: 3.5vw;
+ font-weight: bold;
+}
+
+.rightside-of-logo-font{
+  color: #ff5223;
+}
+
+
+
+/*スマホ版グローバルナビ開始*/
+
+.nav_menu_li{
+  list-style: none;
+  color: #fff;
+  margin-bottom: 15px;
+  
+}
+
+
+.nav_menu_li a{
+  font-weight: bold;
+  font-size: 5vw;
+  color: #fff;
+  
+}
+
+.nav{
+  display: block;
+  margin-top: 30px;
+  background-color: #49c549;
+}
+
+
+
+
+/*ボタンクリック前*/
+.nav_toggle {
+    display: block;
+    float: right;
+    position: relative; /*元relative*/
+    width: 2.5rem; /*元1.75*/
+    height: 1.5rem;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    
+   
+}
+/*一旦保留(htmlの方のpタグは消した)
+.menu_text{
+  font-size: 3.2vw;
+  font-weight: bold;
+  position: relative;
+  padding-top: 27px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+*/
+
+.nav_toggle i {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    transition: transform .5s, opacity .5s;
+}
+.nav_toggle i:nth-child(1) {
+    top: 0;
+}
+.nav_toggle i:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+  .nav_toggle i:nth-child(3) {
+    bottom: 0;
+}
+
+
+
+
+
+
+/*ボタンクリック後*/
+.nav_toggle.show i:nth-child(1) {
+    transform: translateY(10px) rotate(-45deg);
+}
+.nav_toggle.show i:nth-child(2) {
+    opacity: 0;
+}
+.nav_toggle.show i:nth-child(3) {
+    transform: translateY(-12px) rotate(45deg);
+}
+
+
+/*メニュークリック前*/
+.nav {
+    position: fixed;
+    
+    top: 3rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s, visibility .5s;
+}
+
+
+/*メニュークリック後*/
+.nav.show {
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+
+
+
+
+/*スマホ版グローバルナビ終了*/
+
+
+
+
+/*homeのトップ画像*/
+.home-pic-for-smart-back{
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.home-pic-smart{
+ width: 100%;
+ height: 300px;
+ margin: 0 auto;
+}
+
+.home-pic-back-for-pc{
+  display: none;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/**/
+.global-main{
+  display: none;
+}
+
+
+
+
+
+footer{
+  margin-top: 15px;
+  border-top: 2px solid #49c549;
+}
+
+.happa{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer-font{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+/*header内右上の隠しh1タグとそのボックス*/
+.hidden-top{
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+
+
+
+
+
+
+
+/*indexのページ*/
+#index .nav_toggle{
+  margin-top: 14.5px;
+}
+
+
+#index h1{
+  color: #49c549;
+}
+
+
+#index h3{
+  font-size: 6.5vw;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#wrap01{
+  width: 100%;
+  background-color: #fffbeb;
+  /*ボックスシャドウ*/
+  box-shadow:0px -8px 8px -1px #ccc inset;
+}
+
+
+
+#index .content-back{
+  margin-top: 30px;
+}
+
+
+
+#index .content{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  
+}
+
+
+
+#index .news-back{
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 20px;  
+}
+
+#index .news-frame{
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+#index .news{
+  padding-bottom: 30px;
+}
+
+/*インフォメーション*/
+#index .news ul{
+  margin-left: 60px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+#index .news li{
+  list-style: square;
+  margin-bottom: 25px;
+  font-size: 4vw;
+}
+
+#index .news li a{
+  color: #0000ee;
+}
+#index .info-color1{
+  color: #ff5223;
+}
+
+
+/*クリニック案内*/
+#index .clinic-intro{
+  padding-bottom: 20px;
+}
+
+#index .clinic-intro p{
+  font-size: 4.5vw;
+}
+
+#index .clinic-intro ul{
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#index .clinic-intro li{
+  flex: 1 1;
+  margin-top: 20px;
+}
+
+#index img{
+  margin: 0 auto;
+}
+
+#index .waiting{
+  width: 300px;
+  height: 199px;
+}
+
+#index .check{
+  width: 300px;
+  height: 199px;
+}
+
+#index .nebulizer{
+  width: 300px;
+  height: 199px;
+}
+
+#index .clinic-intro a{
+  color: #2b2b2b;
+}
+
+/*診療案内*/
+#index .medicaltreatment-intro{
+  padding-bottom: 50px;
+}
+
+#index .medicaltreatment-intro p{
+  font-size: 4.5vw;
+}
+
+#index .medicaltreatment-intro ul{
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#index .medicaltreatment-intro li{
+  flex: 1 1;
+  margin-top: 20px;
+}
+
+#index .kafun-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .kaze-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .injection-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .medicaltreatment-intro a{
+  color: #2b2b2b;
+}
+
+/*クリニックの特徴*/
+#index .clinic-points{
+  width: 100%;
+  margin-top: 35px;
+  background-color: #ffffff;
+  /*ボックスシャドウ*/
+  box-shadow: 0px 8px 8px -1px #ccc;
+  -webkit-box-shadow: 0px 8px 8px -1px #ccc;
+  -moz-box-shadow: 0px 8px 8px -1px #ccc;
+}
+
+
+
+#index .clinicpoints-intro{
+  padding-bottom: 50px;
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+#index .clinicpoints-intro ul{
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#index .clinicpoints-intro li{
+  flex: 1 1;
+  margin-top: 20px;
+}
+
+#index .toho-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .kidsspace-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .each-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .clinicpoints-intro a{
+  color: #2b2b2b;
+}
+
+#index .points-font{
+  font-size: 4.5vw;
+  font-weight: bold;
+}
+
+
+
+/*診療時間とアクセスの2カラム調節*/
+#index .lower{
+  max-width: 100%;
+  margin: 80px auto;
+  display: block;
+}
+
+
+
+
+/*診療時間*/
+#index .schejule01{
+  max-width: 100%;
+  margin-left: 10px;
+  
+  
+}
+
+#index .schejule-table01{
+  margin: 0 auto;
+}
+
+#index .schejule01 h2{
+  margin: 30px 50px;
+}
+
+#index .logo-schejule{
+  max-width: 60%;
+  height: 80px;
+  margin-top: -15px;
+}
+
+#index .info-schejule{
+  display: block;
+  margin-bottom: 10px;
+}
+
+#index .info-schejule p{
+  margin: 0px auto;
+  
+  font-size: 4vw;
+}
+
+#index .info-schejule-font{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/**診療時間テーブル開始**/
+
+#index .schejule-table01 {
+  max-width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+#index .schejule-table01 th {
+  background-color: #49c549;
+  font-size: 2.5vw;
+  color: #ffffff;
+}
+
+#index .schejule-table01 td{
+  font-size: 4vw;
+}
+
+
+#index .schejule-table01 th, .schejule-table01 td {
+  padding: 2.5vw 2.5vw;
+  text-align: center;
+  /* ２番目以降の線 */
+  /* 色はお好みで */
+  border-bottom: 1px solid #A28C63;
+}
+
+/**診療時間テーブル終了**/
+
+#index .schejule-table-attention01{
+  margin-top: -15px;
+}
+
+#index .schejule-table-attention01 p{
+  font-size: 4vw;
+}
+
+
+/*アクセス*/
+#index .access01{
+  float: none;
+  max-width: 100%;
+  margin-left: 15px;
+  z-index: 1;
+}
+
+#index .access01 h2{
+  margin: 30px 50p;
+}
+
+#index .map-insert01{
+     position: relative;
+     margin: 0 auto;
+     overflow: hidden;
+     
+  }
+ 
+#index .map-insert01 iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 95%;
+     height: 350px;
+     margin: 0 auto;
+     
+  }
+
+#index .clearfix{
+  clear: both;
+}
+
+#index .map-btn01{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+#index .map-btn01 a{
+  color: #ffffff;
+}
+
+#index .map-details01{
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  background-color: #49c549;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+
+
+
+/*index以外のページ共通要素*/
+#wrap02{
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 0px;/*元50px*/
+}
+
+#doctor #wrap02 p{
+  font-size: 4vw;
+}
+
+
+/*doctorのページ*/
+#doctor .logo{
+  float: left;
+  max-width: 65%;
+  margin-top: -23.5px;
+}
+
+#doctor .nav_toggle{
+  margin-top: 14.5px;
+}
+
+#doctor .content{
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+#doctor .intro-doctor{
+  max-width: 100%;
+  /*margin-left: 20px;*/
+  /*margin-right: 8px;*/
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 100px;
+}
+
+#doctor .intro-doctor p{
+  font-size: 4vw;
+}
+
+#doctor .intro-doctor-pic-box{
+  display: none;
+}
+
+#doctor .intro-doctor-pic-box-smart{
+  display:  block;
+  /*margin-right: 15px;*/
+  margin: 0 auto;
+}
+
+#doctor .intro-doctor-pic-box-smart p{
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#doctor h1{
+  color: #49c549;
+}
+
+#doctor h3{
+  font-size: 6.5vw;
+  margin-top: 0px; /*元50px*/
+  
+}
+
+#doctor h4{
+  font-size: 5.5vw;
+  margin-top: 10px; /*元50px*/
+  margin-bottom: 20px;
+}
+
+#doctor .doctor-margin{
+  margin-bottom: -15px;
+}
+
+#doctor .intro-doctor-words{
+  max-width: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#doctor .doctor-table{
+  margin-bottom: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  
+}
+
+#doctor footer{
+  margin-top: 50px;
+}
+
+#doctor table{
+  font-size: 3.5vw;
+}
+
+#doctor tr{
+  height: 80px;
+}
+
+#doctor th{
+  width: 100px;
+}
+
+
+/*informationのページ*/
+
+#information .logo{
+  float: left;
+  max-width: 65%;
+  margin-top: -23.5px;
+}
+
+#information .nav_toggle{
+  margin-top: 14.5px;
+}
+
+
+
+#information .content{
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+#information h1{
+  color: #49c549;
+}
+
+#information h3{
+  font-size: 6.5vw;
+  margin-top: 0px; /*元50px*/
+  margin-bottom: 8px; /*doctorにはない(構造が違う)*/
+  
+}
+
+#information h4{
+  font-size: 5.5vw;
+  margin-top: 10px; /*元50px*/
+  margin-bottom: -40px; /*doctorは20px(構造が違う)*/
+}
+
+
+#information #wrap02 p{
+  font-size: 4vw;
+}
+
+
+#information .information-details{
+  max-width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 100px;
+}
+
+#information .information-details p{
+  margin-right: 15px;
+}
+
+#information .alcohol-detail {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  
+}
+
+#information #alcohol-detail {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+#information .s-alcohol p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#information #calling-medical-treatment-detail{
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+#information .s-call-check p{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#information footer{
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+/*#introdaction-clinicのページ*/
+
+#introdaction-clinic .logo{
+  float: left;
+  max-width: 65%;
+  margin-top: -23.5px;
+}
+
+#introdaction-clinic .nav_toggle{
+  margin-top: 14.5px;
+}
+
+
+
+#introdaction-clinic .content{
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+#introdaction-clinic h1{
+  color: #49c549;
+}
+
+#introdaction-clinic h3{
+  font-size: 6.5vw;
+  margin-top: 0px; /*元50px*/
+  margin-bottom: 8px; /*doctorにはない(構造が違う)*/
+  
+}
+
+#introdaction-clinic h4{
+  font-size: 5.5vw;
+  margin-top: 10px; /*元50px*/
+  margin-bottom: -40px; /*doctorは20px(構造が違う)*/
+}
+
+
+#introdaction-clinic #wrap02 p{
+  font-size: 4vw;
+}
+
+
+#introdaction-clinic .introdaction-clinic{
+  clear: both;
+  max-width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 100px;
+}
+
+
+#introdaction-clinic .introdaction-clinic p{
+  font-size: 4vw;
+
+}
+
+#introdaction-clinic .info-top {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#introdaction-clinic .introdaction-waiting-pic-box{
+  display: none;
+}
+
+#introdaction-clinic .introdaction-waiting-pic-box-smart{
+  display:  block;
+  margin-right: 0 auto;
+}
+
+#introdaction-clinic .introdaction-waiting-words{
+  clear: both;
+  margin-top: -70px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: -18.5px;
+}
+
+#introdaction-clinic .s-waiting{
+  margin-top: -50px;
+}
+
+#introdaction-clinic .s-check h4{
+  margin-top: -100px;
+}
+
+#introdaction-clinic .introdaction-check-pic-box{
+  display: none;
+}
+
+#introdaction-clinic .introdaction-check-pic-box-smart{
+  display:  block;
+  margin-right: 0 auto;
+}
+
+#introdaction-clinic .introdaction-check-words{
+  clear: both;
+  margin-top: -70px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: -18.5px;
+}
+
+
+#introdaction-clinic .s-nebulizer h4{
+  margin-top: -100px;
+}
+
+#introdaction-clinic .introdaction-nebulizer-pic-box{
+  display: none;
+}
+
+#introdaction-clinic .introdaction-nebulizer-pic-box-smart{
+  display:  block;
+  margin-right: 0 auto;
+}
+
+#introdaction-clinic .introdaction-nebulizer-words{
+  clear: both;
+  margin-top: -70px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: -40px;
+}
+
+#introdaction-clinic .s-nebulizer{
+  /*margin-top: -50px;*/
+  margin-top: 0px;
+}
+
+
+/*medical-treatmentのページ*/
+#medical-treatment .logo{
+  float: left;
+  max-width: 65%;
+  margin-top: -23.5px;
+}
+
+
+
+#medical-treatment .nav_toggle{
+  margin-top: 14.5px;
+}
+
+
+
+#medical-treatment .content{
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+#medical-treatment h1{
+  color: #49c549;
+}
+
+#medical-treatment h3{
+  font-size: 6.5vw;
+  margin-top: 0px; /*元50px*/
+  margin-bottom: 8px; /*doctorにはない(構造が違う)*/
+  
+}
+
+#medical-treatment h4{
+  font-size: 5.5vw;
+  margin-top: 85px; /*元50px*/
+  margin-bottom: -40px; /*doctorは20px(構造が違う)*/
+}
+
+
+#medical-treatment #wrap02 p{
+  font-size: 4vw;
+}
+
+
+#medical-treatment .introdaction-medical-treatment{
+  clear: both;
+  max-width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 100px;
+}
+
+
+#medical-treatment .introdaction-medical-treatment p{
+  font-size: 4vw;
+}
+
+#medical-treatment .info-top {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#medical-treatment .medical-treatment-kafun-pic-box{
+  display: none;
+}
+
+#medical-treatment .medical-treatment-kafun-pic-box-smart{
+  display:  block;
+  margin-right: 0 auto;
+  margin-top: 50px;
+}
+
+#medical-treatment .medical-treatment-kafun-words{
+  clear: both;
+  margin-top: 14px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: -18.5px;
+}
+
+#medical-treatment .s-kafun{
+  margin-top: -50px;
+}
+
+#medical-treatment .s-kaze{
+  margin-top: -58px;
+}
+
+#medical-treatment #kaze{
+  margin-bottom: 10px;
+}
+
+#medical-treatment .medical-treatment-kaze-pic-box{
+  display: none;
+}
+
+#medical-treatment .medical-treatment-kaze-pic-box-smart{
+  display:  block;
+  margin-right: 0 auto;
+}
+
+#medical-treatment .medical-treatment-kaze-words{
+  clear: both;
+  margin-top: 14.5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: -18.5px;
+}
+
+
+#medical-treatment #injection{
+  margin-bottom: 10px;
+}
+
+#medical-treatment .medical-treatment-injection-pic-box{
+  display: none;
+}
+
+#medical-treatment .medical-treatment-injection-pic-box-smart{
+  display:  block;
+  margin-right: 0 auto;
+}
+
+#medical-treatment .medical-treatment-injection-words{
+  clear: both;
+  margin-top: 10.5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+#medical-treatment .s-injection{
+  margin-top: -56.5px;
+}
+
+
+/*schejule-accessのページ*/
+
+
+#schejule-access .logo{
+  float: left;
+  max-width: 65%;
+  margin-top: -20px;
+}
+
+#schejule-access .logo-pic{
+  margin-top: -3.5px;
+}
+
+#schejule-access .nav_toggle{
+  margin-top: 14.5px;
+}
+
+
+
+#schejule-access .content{
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+#schejule-access .schejule02{
+  max-width: 100%;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-top: 100px;
+}
+
+#schejule-access h1{
+  color: #49c549;
+}
+
+#schejule-access h3{
+  font-size: 6.5vw;
+  margin-top: 0px; /*元50px*/
+  margin-bottom: 8px; /*doctorにはない(構造が違う)*/
+  
+}
+
+#schejule-access h4{
+  font-size: 5.5vw;
+  margin-top: 85px; /*元50px*/
+  margin-bottom: -40px; /*doctorは20px(構造が違う)*/
+}
+
+#schejule-access #wrap02{
+  max-width: 100%;
+}
+
+
+#schejule-access #wrap02 p{
+  font-size: 4vw;
+}
+
+#schejule-access .schejule-access-adjuster-smart p{
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+
+
+#schejule-access .table-adjuster-smart table{
+  max-width: 95%;
+  margin: 40px auto 0px auto;
+}
+
+
+
+#schejule-access .schejule-table02 th{
+  background-color: #49c549;
+  font-size: 2.5vw;
+  color: #ffffff;
+}
+
+#schejule-access .schejule-table02 td{
+  font-size: 4vw;
+} 
+
+#schejule-access .schejule-table02 th, .schejule-table02 td {
+  padding: 2.5vw 2.5vw;
+  text-align: center;
+  /* ２番目以降の線 */
+  /* 色はお好みで */
+  border-bottom: 1px solid #A28C63;
+}
+
+
+#schejule-access .schejule-table-attention02{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+
+#schejule-access .access02{
+  float: none;
+  max-width: 100%;
+  /*margin-left: 20px;*/
+  /*margin-right: 15px;*/
+  z-index: 1;
+}
+
+#schejule-access .access02 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#schejule-access .map-insert02{
+     width: 100%;
+     position: relative;
+     overflow: hidden;
+     
+     
+  }
+ 
+#schejule-access .map-insert02 iframe {
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 95%;
+     height: 350px;
+     margin: 0 auto;
+    
+     
+  }
+
+#schejule-access .access02{
+  margin-bottom: 0px;
+
+}
+
+#schejule-access .map-btn02{
+  margin-top: -30px;
+}
+
+#schejule-access .map-details02{
+  font-size: 6vw;
+}
+
+#schejule-access footer{
+  margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*gameページ*/
+
+
+#game #wrap02 p {
+    font-size: 4vw;
+    
+}
+
+#game .explain p {
+    font-size: 4vw;
+}
+
+
+
+#game main {
+    width: 80%;
+    padding: 20px 10px 20px 10px;
+    
+}
+
+
+#game .logo{
+  float: left;
+  max-width: 65%;
+  margin-top: -23.5px;
+}
+
+#game .nav_toggle{
+  margin-top: 14.5px;
+}
+
+#game .content{
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+
+
+#game .intro-slot{
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 100px;
+}
+
+#game .readwith {
+    display: block;
+    margin: 0 auto;
+}
+
+#game .readwith img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#game h1{
+  color: #49c549;
+}
+
+#game h3{
+  font-size: 6.5vw;
+  margin-top: 0px; /*元50px*/
+  
+}
+
+#game h4{
+  font-size: 5.5vw;
+  margin-top: 50px; /*元50px*/
+  margin-bottom: 20px;
+}
+
+#game .doctor-margin{
+  margin-bottom: -15px;
+}
+
+#game .intro-doctor-words{
+  max-width: 100%;
+  margin-right: 15px;
+}
+
+#game .doctor-table{
+  margin-bottom: 30px;
+  
+}
+
+#game footer{
+  margin-top: 50px;
+}
+
+#game table{
+  font-size: 3.5vw;
+}
+
+#game tr{
+  height: 80px;
+}
+
+#game th{
+  width: 100px;
+}
+
+
+
+
+
+
+
+#game .slotmain {
+    height: 140px;
+}
+
+#game .panel {
+    width: 30%;
+}
+
+#game .panel > img {
+    width: 90%;
+}
+
+#game .stop {
+    width: 90%;
+}
+
+#game .boxbox {
+    width: 90%;
+    
+}
+
+#game .yatta{
+    width: 100%;
+    height: 200px;
+}
+
+#game .bg03 {
+    height: 300px;
+   
+}
+
+#game .score {
+    font-size: 20px;
+}
+
+
+#game .infos-in-game {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*画面サイズが896以下(スマホ横とパッド縦)の場合に適用*/
+@media screen and (min-width:480px) and (max-width:896px){
+
+
+/*共通部分*/
+
+body{
+  margin: 0px;
+  padding: 0px;
+  color: #333333;/*元333333*/
+  font-size: 15px;
+  line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+  margin-top: 0px;
+  font-family: 'Kosugi Maru', sans-serif;
+  
+}
+
+img{
+  vertical-align: bottom;
+}
+
+ul,header{
+ margin: 0px;
+  padding: 0px;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: #788d98;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1{
+  font-size: 2.5vw;
+}
+
+
+
+/*header基本設定*/
+header{
+  width: 100%;
+  height: 100px;
+  margin: 0px;
+  background-color: #49c549;
+  position: fixed;
+  z-index: 100;
+}
+
+.logo{
+  float: left;
+  max-width: 100%;
+  margin-top: -20px;
+}
+
+.logo-pic{
+  margin-top: -3.5px;
+  width: 60%;
+}
+
+
+
+
+.rightside-of-logo{
+  display: none;
+  float: right;
+  width: 50%;
+  margin-right: 0px;
+  
+}
+
+.rightside-of-logo{
+ font-size: 3.5vw;
+ font-weight: bold;
+}
+
+.rightside-of-logo-font{
+  color: #ff5223;
+}
+
+
+
+/*スマホ版グローバルナビ開始*/
+
+.nav_menu_li{
+  list-style: none;
+  color: #fff;
+  margin-bottom: 15px;
+  
+}
+
+
+.nav_menu_li a{
+  font-weight: bold;
+  font-size: 3vw;
+  color: #fff;
+  
+}
+
+.nav{
+  display: block;
+  margin-top: 30px;
+  background-color: #49c549;
+}
+
+
+
+
+/*ボタンクリック前*/
+.nav_toggle {
+    display: block;
+    float: right;
+    position: relative; /*元relative*/
+    width: 2.5rem; /*元1.75*/
+    height: 1.5rem;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    margin-right:30px;
+    
+   
+}
+/*一旦保留(htmlの方のpタグは消した)
+.menu_text{
+  font-size: 3.2vw;
+  font-weight: bold;
+  position: relative;
+  padding-top: 27px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+*/
+
+.nav_toggle i {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    transition: transform .5s, opacity .5s;
+}
+.nav_toggle i:nth-child(1) {
+    top: 0;
+}
+.nav_toggle i:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+  .nav_toggle i:nth-child(3) {
+    bottom: 0;
+}
+
+
+
+
+
+
+/*ボタンクリック後*/
+.nav_toggle.show i:nth-child(1) {
+    transform: translateY(10px) rotate(-45deg);
+}
+.nav_toggle.show i:nth-child(2) {
+    opacity: 0;
+}
+.nav_toggle.show i:nth-child(3) {
+    transform: translateY(-12px) rotate(45deg);
+}
+
+
+/*メニュークリック前*/
+.nav {
+    position: fixed;
+    
+    top: 3rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s, visibility .5s;
+}
+
+
+/*メニュークリック後*/
+.nav.show {
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+
+
+
+
+/*スマホ版グローバルナビ終了*/
+
+
+
+
+/*homeのトップ画像*/
+.home-pic-for-smart-back{
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.home-pic-smart{
+ width: 100%;
+ height: 350px;
+ margin: 0 auto;
+}
+
+.home-pic-back-for-pc{
+  display: none;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/**/
+.global-main{
+  display: none;
+}
+
+
+
+
+
+footer{
+  margin-top: 15px;
+  border-top: 2px solid #49c549;
+}
+
+.happa{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer-font{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+/*header内右上の隠しh1タグとそのボックス*/
+.hidden-top{
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+
+
+
+/*indexのページ*/
+#index img{
+  vertical-align: bottom;
+}
+
+#index .nav_toggle{
+  margin-top: 18.5px;
+}
+
+#index h1{
+  color: #49c549;
+}
+
+
+#index h3{
+  font-size: 4vw;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#wrap01{
+  width: 100%;
+  background-color: #fffbeb;
+  /*ボックスシャドウ*/
+  box-shadow:0px -8px 8px -1px #ccc inset;
+}
+
+
+
+
+
+
+
+#index .content{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  
+}
+
+
+
+#index .news-back{
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 20px;  
+}
+
+#index .news-frame{
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+#index .news{
+  padding-bottom: 30px;
+}
+
+/*インフォメーション*/
+#index .news ul{
+  margin: 0 auto;
+}
+
+#index .news li{
+  list-style: square;
+  margin-bottom: 25px;
+  font-size: 3vw;
+}
+
+#index .news li a{
+  color: #0000ee;
+}
+#index .info-color1{
+  color: #ff5223;
+}
+
+
+/*クリニック案内*/
+#index .clinic-intro{
+  padding-bottom: 20px;
+}
+
+#index .clinic-intro p{
+  font-size: 3.5vw;
+}
+
+#index .clinic-intro ul{
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#index .clinic-intro li{
+  flex: 1 1;
+  margin-top: 20px;
+}
+
+
+
+#index .waiting{
+  width: 300px;
+  height: 199px;
+}
+
+#index .check{
+  width: 300px;
+  height: 199px;
+}
+
+#index .nebulizer{
+  width: 300px;
+  height: 199px;
+}
+
+#index .clinic-intro a{
+  color: #2b2b2b;
+}
+
+/*診療案内*/
+#index .medicaltreatment-intro{
+  padding-bottom: 50px;
+}
+
+#index .medicaltreatment-intro p{
+  font-size: 3.5vw;
+}
+
+#index .medicaltreatment-intro ul{
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#index .medicaltreatment-intro li{
+  flex: 1 1;
+  margin-top: 20px;
+}
+
+#index .kafun-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .kaze-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .injection-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .medicaltreatment-intro a{
+  color: #2b2b2b;
+}
+
+/*クリニックの特徴*/
+#index .clinic-points{
+  width: 100%;
+  margin-top: 35px;
+  background-color: #ffffff;
+  /*ボックスシャドウ*/
+  box-shadow: 0px 8px 8px -1px #ccc;
+  -webkit-box-shadow: 0px 8px 8px -1px #ccc;
+  -moz-box-shadow: 0px 8px 8px -1px #ccc;
+}
+
+
+
+#index .clinicpoints-intro{
+  padding-bottom: 50px;
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+#index .clinicpoints-intro ul{
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#index .clinicpoints-intro li{
+  flex: 1 1;
+  margin-top: 20px;
+}
+
+#index .toho-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .kidsspace-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .each-pic{
+  width: 300px;
+  height: 199px;
+}
+
+#index .clinicpoints-intro a{
+  color: #2b2b2b;
+}
+
+#index .points-font{
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+
+
+
+/*診療時間とアクセスの2カラム調節*/
+#index .lower{
+  max-width: 80%;
+  margin: 80px auto;
+  display: block;
+}
+
+
+
+
+/*診療時間*/
+
+
+
+#index .schejule01{
+  float: none;
+  max-width: 100%;
+  margin-left: 0px;
+}
+  
+
+#index .schejule01 h2{
+  margin: 30px 50px;
+}
+
+#index .logo-schejule{
+  max-width: 100%;
+  height: 80px;
+  margin-top: -15px;
+  margin-left: 0px;
+}
+
+#index .info-schejule{
+  max-width: 60%;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+#index .info-schejule p{
+  margin: 0px auto;
+  
+  font-size: 3vw;
+}
+
+#index .info-schejule-font{
+  font-weight: bold;
+  font-size: 3vw;
+}
+
+/**診療時間テーブル開始**/
+#index .schejule-table01 {
+  max-width: 80%;
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  display: block;
+  margin-left:0px;
+}
+
+
+
+
+#index .schejule-table01 th {
+  background-color: #49c549;
+  font-size: 3vw;
+  color: #ffffff;
+}
+
+#index .schejule-table01 td{
+  font-size: 3vw;
+}
+
+
+#index .schejule-table01 th, .schejule-table01 td {
+  padding: 2.5vw 2.5vw;
+  text-align: center;
+  /* ２番目以降の線 */
+  /* 色はお好みで */
+  border-bottom: 1px solid #A28C63;
+}
+
+/**診療時間テーブル終了**/
+
+#index .schejule-table-attention01{
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 30px;
+}
+
+#index .schejule-table-attention01 p{
+  font-size: 3vw;
+}
+
+
+/*アクセス*/
+#index .access01{
+  float: none;
+  max-width: 100%;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+
+
+#index .map-insert01{
+     position: relative;
+     
+     overflow: hidden;
+     
+  }
+ 
+#index .map-insert01 iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 98%;
+     height: 350px;
+     margin: 0 auto;
+     
+  }
+
+#index .clearfix{
+  clear: both;
+}
+
+#index .map-btn01{
+  margin-right: 20px;
+  display: block;
+  text-align: center;
+}
+
+#index .map-btn01 a{
+  color: #ffffff;
+}
+
+#index .map-details01{
+  display: inline-block;
+  padding: 7px 80px;
+  border-radius: 25px;
+  background-color: #49c549;
+  margin: 0 auto;
+  font-size: 4vw;
+}
+
+
+
+
+/*doctorのページ*/
+#doctor #wrap02{
+  padding-bottom: 2px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#doctor #wrap02 p{
+  font-size: 3vw;
+}
+
+#doctor .nav_toggle{
+  margin-top: 18.5px;
+}
+
+#doctor .content{
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+#doctor .intro-doctor{
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 8px;
+  padding-top: 100px;
+}
+
+#doctor .intro-doctor p{
+  font-size: 3vw;
+}
+
+
+
+#doctor .intro-doctor-pic-box{
+  display: none;
+}
+
+#doctor .intro-doctor-pic-box-smart{
+  display:  block;
+}
+
+#doctor .intro-doctor-pic-box-smart p{
+  margin-top: 20px;
+}
+
+#doctor h1{
+  color: #49c549;
+}
+
+#doctor h3{
+  font-size: 4vw;
+  margin-top: 30px; /*元50px*/
+  
+}
+
+#doctor h4{
+  font-size: 3.8vw;
+  margin-top: 30px; /*元50px*/
+  margin-bottom: 15px;
+}
+
+#doctor .doctor-margin{
+  margin-bottom: -15px;
+}
+
+#doctor .intro-doctor-words{
+  max-width: 100%;
+  
+}
+
+#doctor .doctor-table{
+  margin-bottom: 30px;
+}
+
+#doctor footer{
+  margin-top: 50px;
+}
+
+#doctor table{
+  font-size: 3vw;
+}
+
+#doctor tr{
+  height: 100px;
+}
+
+#doctor th{
+  width: 150px;
+}
+
+#doctor .gakkai-adjuster h4{
+  margin-top: 60px;
+}
+
+
+/*#informationのページ*/
+#information .nav_toggle{
+  margin-top: 18.5px;
+}
+
+#information #wrap02{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#information .content{
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+#information h1{
+  color: #49c549;
+}
+
+#information h3{
+  font-size: 4vw;
+  margin-top: 30px; /*元50px*/
+  margin-bottom: 8px; /*doctorにはない(構造が違う)*/
+  
+}
+
+#information h4{
+  font-size: 3.8vw;
+  margin-top: 10px; /*元50px*/
+  margin-bottom: -40px; /*doctorは20px(構造が違う)*/
+}
+
+
+#information #wrap02 p{
+  font-size: 3vw;
+}
+
+#information .information-details{
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+#information .information-details p{
+  margin-right: 0px;
+}
+
+#information #alcohol-detail{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#information .s-alcohol{
+  margin-right: 0px;
+}
+
+#information #calling-medical-treatment-detail{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#information .s-call-check{
+  margin-right: 0px;
+}
+
+#information footer{
+  margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#introdaction .introdaction-clinic p{
+  font-size: 4vw;
+  
+}
+
+#introdaction .introdaction-waiting-pic-box{
+  display: none;
+}
+
+#introdaction .introdaction-waiting-pic-box-smart{
+  display:  block;
+  margin: 0 auto;
+}
+
+#introdaction .introdaction-waiting-words{
+  float: none;
+  max-width: 100%;
+  display: block;
+    margin-top: -60px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -18.5px;
+}
+
+
+
+
+
+
+
+
+
+
+/*#introdaction-clinicのページ*/
+#introdaction-clinic .nav_toggle{
+  margin-top: 18.5px;
+}
+
+#introdaction-clinic #wrap02{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#introdaction-clinic .content{
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+#introdaction-clinic h1{
+  color: #49c549;
+}
+
+#introdaction-clinic h3{
+  font-size: 4vw;
+  margin-top: 30px; /*元50px*/
+  margin-bottom: 8px; /*doctorにはない(構造が違う)*/
+  
+}
+
+#introdaction-clinic h4{
+  font-size: 3.8vw;
+  margin-top: 10px; /*元50px*/
+  margin-bottom: -40px; /*doctorは20px(構造が違う)*/
+}
+
+
+#introdaction-clinic #wrap02 p{
+  font-size: 3vw;
+}
+
+
+#introdaction-clinic .introdaction-clinic{
+  clear: both;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+
+#introdaction-clinic .introdaction-clinic p{
+  font-size: 4vw;
+  
+}
+
+#introdaction-clinic .introdaction-waiting-pic-box{
+  display: none;
+}
+
+#introdaction-clinic .introdaction-waiting-pic-box-smart{
+  display:  block;
+  margin: 0 auto;
+}
+
+#introdaction-clinic .introdaction-waiting-words{
+  float: none;
+  max-width: 100%;
+  display: block;
+    margin-top: -60px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -18.5px;
+}
+
+#introdaction-clinic .s-waiting h4{
+  margin-top: 25px;
+}
+
+
+#introdaction-clinic .s-waiting{
+  margin-top: -50px;
+}
+
+#introdaction-clinic .s-check h4{
+  margin-top: -100px;
+}
+
+#introdaction-clinic .introdaction-check-pic-box{
+  display: none;
+}
+
+#introdaction-clinic .introdaction-check-pic-box-smart{
+  display:  block;
+  margin-right: 0 auto;
+}
+
+#introdaction-clinic .introdaction-check-words{
+  float: none;
+  max-width: 100%;
+  margin-top: -60px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -18.5px;
+}
+
+
+#introdaction-clinic .s-nebulizer h4{
+  
+  margin-top: -50px;
+}
+
+#introdaction-clinic .introdaction-nebulizer-pic-box{
+  display: none;
+}
+
+#introdaction-clinic .introdaction-nebulizer-pic-box-smart{
+  display:  block;
+  margin: 0 auto;
+}
+
+#introdaction-clinic .introdaction-nebulizer-words{
+  float: none;
+  max-width: 100%;
+  margin-top: -60px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -40px;
+}
+
+#introdaction-clinic .s-nebulizer{
+  margin-top: -50px;
+}
+
+#introdaction-clinic footer{
+  margin-top: 0px;
+}
+
+
+
+
+/*#medical-treatmentのページ*/
+#medical-treatment .nav_toggle{
+  margin-top: 18.5px;
+}
+
+#medical-treatment #wrap02{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#medical-treatment .content{
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+#medical-treatment h1{
+  color: #49c549;
+}
+
+#medical-treatment h3{
+  font-size: 4vw;
+  margin-top: 30px; /*元50px*/
+  margin-bottom: 8px; /*doctorにはない(構造が違う)*/
+  
+}
+
+#medical-treatment h4{
+  font-size: 3.8vw;
+  margin-top: 10px; /*元50px*/
+  margin-bottom: -40px; /*doctorは20px(構造が違う)*/
+}
+
+
+#introdaction-clinic #wrap02 p{
+  font-size: 3vw;
+}
+
+
+#medical-treatment .introdaction-medical-treatment{
+  clear: both;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+
+#medical-treatment .introdaction-medical-treatment p{
+  font-size: 4vw;
+  
+}
+
+#medical-treatment #kafun{
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+#medical-treatment .medical-treatment-kafun-pic-box{
+  display: none;
+}
+
+#medical-treatment .medical-treatment-kafun-pic-box-smart{
+  width: 80%;
+  display:  block;
+  margin: 0 auto;
+}
+
+#medical-treatment .medical-treatment-kafun-words{
+  float: none;
+  max-width: 100%;
+  display: block;
+    margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -18.5px;
+}
+
+#medical-treatment #kaze{
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+
+#medical-treatment .medical-treatment-kaze-pic-box{
+  display: none;
+}
+
+#medical-treatment .medical-treatment-kaze-pic-box-smart{
+  width: 80%;
+  display:  block;
+  margin: 0 auto;
+}
+
+#medical-treatment .medical-treatment-kaze-words{
+  float: none;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -18.5px;
+}
+
+
+#medical-treatment #injection{
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+
+#medical-treatment .medical-treatment-injection-pic-box{
+  display: none;
+}
+
+#medical-treatment .medical-treatment-injection-pic-box-smart{
+  width: 80%;
+  display:  block;
+  margin: 0 auto;
+}
+
+#medical-treatment .medical-treatment-injection-words{
+  float: none;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -40px;
+}
+
+
+
+#medical-treatment footer{
+  margin-top: 110px;
+}
+
+
+
+/*schejule-accessのページ*/
+#schejule-access .nav_toggle {
+    margin-top: 18.5px;
+}
+
+
+
+#schejule-access #wrap02{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+#schejule-access .content{
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+#schejule-access .schejule02{
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+
+#schejule-access .schejule-access-adjuster-smart{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+
+#schejule-access h1{
+  color: #49c549;
+}
+
+#schejule-access h3{
+  font-size: 4vw;
+  margin-top: 30px; /*元50px*/
+  margin-bottom: 8px; /*doctorにはない(構造が違う)*/
+  
+}
+
+#schejule-access h4{
+  font-size: 3.8vw;
+  margin-top: 85px; /*元50px*/
+  margin-bottom: -40px; /*doctorは20px(構造が違う)*/
+}
+
+#schejule-access #wrap02{
+  max-width: 100%;
+}
+
+
+#schejule-access #wrap02 p{
+  font-size: 3vw;
+}
+
+#schejule-access .table-adjuster-smart{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#schejule-access .schejulle-table02{
+  max-width: 80%;
+}
+
+
+#schejule-access .schejule-table02 th{
+  background-color: #49c549;
+  font-size: 2.5vw;
+  color: #ffffff;
+}
+
+#schejule-access .schejule-table02 td{
+  font-size: 3vw;
+} 
+
+#schejule-access .schejule-table02 th, .schejule-table02 td {
+  padding: 2.5vw 2.5vw;
+  text-align: center;
+  /* ２番目以降の線 */
+  /* 色はお好みで */
+  border-bottom: 1px solid #A28C63;
+}
+
+
+#schejule-access .schejule-table-attention02{
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+
+
+#schejule-access .access02{
+  float: none;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  z-index: 1;
+}
+
+
+#schejule-access .map-insert02{
+     width: 100%;
+     position: relative;
+     overflow: hidden;
+     
+     
+  }
+ 
+#schejule-access .map-insert02 iframe {
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 95%;
+     height: 350px;
+     margin: 0 auto;
+    
+     
+  }
+
+#schejule-access .access02{
+  margin-bottom: 0px;
+
+}
+
+#schejule-access .map-details02{
+  display: inline-block;
+  padding: 7px 80px;
+  border-radius: 25px;
+  background-color: #49c549;
+  margin: 0 auto;
+  font-size: 4vw;
+}
+
+#schejule-access footer{
+  margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+/*gameページ*/
+
+
+
+#game #wrap02{
+  padding-bottom: 2px;
+  max-width: 80%;
+  margin: 0px auto;
+  /*margin-top: 100px;*/
+}
+
+
+
+#game #wrap02 p{
+  font-size: 3vw;
+}
+
+#game .nav_toggle{
+  margin-top: 18.5px;
+}
+
+#game .content{
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+#game .intro-slot{
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 8px;
+  margin-top: 0;
+  padding-top: 100px;
+}
+
+#game .intro-slot p{
+  font-size: 3vw;
+}
+
+#game .infos-in-game {
+    margin-top: 100px;
+}
+
+#game .yatta  {
+    height: 205px;
+}
+
+#game .ugai {
+    margin-bottom: 50px;
+}
+
+#game .wash-hands {
+    margin-bottom: 50px;
+}
+
+#game .medicine {
+    margin-bottom: 50px;
+}
+
+/*#game .intro-doctor-pic-box{*/
+/*  display: none;*/
+/*}*/
+
+/*#game .intro-doctor-pic-box-smart{*/
+/*  display:  block;*/
+/*}*/
+
+/*#game .intro-doctor-pic-box-smart p{*/
+/*  margin-top: 20px;*/
+/*}*/
+
+#game h1{
+  color: #49c549;
+}
+
+#game h3{
+  font-size: 4vw;
+  margin-top: 30px; /*元50px*/
+  
+}
+
+#game h4{
+  font-size: 3.8vw;
+  margin-top: 30px; /*元50px*/
+  margin-bottom: 15px;
+}
+
+#game .doctor-margin{
+  margin-bottom: -15px;
+}
+
+#game .intro-doctor-words{
+  max-width: 100%;
+  
+}
+
+#game .doctor-table{
+  margin-bottom: 30px;
+}
+
+#game footer{
+  margin-top: 50px;
+}
+
+#game table{
+  font-size: 3vw;
+}
+
+#game tr{
+  height: 100px;
+}
+
+#game th{
+  width: 150px;
+}
+
+#game .gakkai-adjuster h4{
+  margin-top: 60px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
