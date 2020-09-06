@@ -13,4 +13,4 @@ Name
 
 ■ 使用言語・ツール：HTML5/CSS3/JavaScript/jQuery/Adobe Photoshop
 
-こちらから見ることができます：[サイトリンク(外部)](https://www.introsample.com/)
+■ サイトはこちらからどうぞ：[リンク(外部)](https://www.introsample.com/)
