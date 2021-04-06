@@ -26,7 +26,7 @@
 
 ・jQuery
 
-・Adobe Photoshop
+・Adobe Photoshop(画像の編集加工)
 
 機能一覧
 ===
