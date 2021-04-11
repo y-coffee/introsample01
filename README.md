@@ -18,17 +18,17 @@
 使用技術一覧(言語・ライブラリ・ツール)
 ===
 
-・HTML5
+- HTML5
 
-・CSS3
+- CSS3
 
-・JavaScript
+- JavaScript
 
-・jQuery
+- jQuery
 
-・Adobe Photoshop(画像の編集加工)
+- Adobe Photoshop(画像の編集加工)
 
 機能一覧
 ===
 
-・診察待ち時間に使用される子供向けのゲーム(手洗いやうがいなどの大切さを知ることのできるスロットゲーム/Vanilla JavaScript)
+- 診察待ち時間に使用される子供向けのゲーム(手洗いやうがいなどの大切さを知ることのできるスロットゲーム/Vanilla JavaScript)
